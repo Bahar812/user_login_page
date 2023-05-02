@@ -20,6 +20,6 @@ form.addEventListener("submit", () =>{
             success.style.display = "block"
             success.innerText = data.success
         }
-    })
+    }).catch(err => console.log("error : ", err))
     
 })
